@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"editor.tabSize": 2,
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": "always"
+		},
+		"editor.formatOnSave": true,
+		"files.insertFinalNewline": true
+	},
+	"extensions": {
+		"recommendations": [
+			"mgmcdermott.vscode-language-babel",
+			"aaron-bond.better-comments",
+			"usernamehw.errorlens",
+			"dbaeumer.vscode-eslint"
+		]
+	}
+}
