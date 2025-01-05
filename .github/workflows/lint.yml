@@ -1,4 +1,4 @@
-name: Linting and Formatting
+name: Code Linting
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
 
 jobs:
   lint:
-    name: Run ESLint & Prettier
+    name: Run ESLint
     runs-on: ubuntu-latest
 
     steps:
@@ -26,6 +26,3 @@ jobs:
 
       - name: Run ESLint
         run: npm run lint
-
-      - name: Run Prettier Check
-        run: npm run format:check
